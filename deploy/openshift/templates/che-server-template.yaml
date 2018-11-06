@@ -86,6 +86,10 @@ objects:
             value: "10000"
           - name: JAEGER_SAMPLER_MANAGER_HOST_PORT
             value: "jaeger:5778"
+          - name: CHE_JDBC_DRIVER__CLASS__NAME
+            value: "io.opentracing.contrib.jdbc.TracingDriver"
+          - name: CHE_JDBC_URL
+            value: "jdbc:tracing:h2:che"
           - name: CHE_MULTIUSER
             value: "${CHE_MULTIUSER}"
           - name: CHE_WORKSPACE_HTTP__PROXY

@@ -13,6 +13,7 @@ package org.eclipse.che.api.deploy;
 
 import io.opentracing.Tracer;
 import io.opentracing.contrib.tracerresolver.TracerResolver;
+import io.opentracing.util.GlobalTracer;
 import javax.inject.Provider;
 import javax.inject.Singleton;
 
@@ -22,6 +23,7 @@ public class TracerProvider implements Provider<Tracer> {
 
   public TracerProvider() {
     this.tracer = TracerResolver.resolveTracer();
+    GlobalTracer.register(tracer);
   }
 
   @Override
