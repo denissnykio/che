@@ -64,29 +64,9 @@
                 <version>${version.jsr305.plugin}</version>
             </dependency>
             <dependency>
-                <groupId>io.jaegertracing</groupId>
-                <artifactId>jaeger-client</artifactId>
-                <version>0.32.0</version>
-            </dependency>
-            <dependency>
-                <groupId>io.jaegertracing</groupId>
-                <artifactId>jaeger-core</artifactId>
-                <version>0.32.0</version>
-            </dependency>
-            <dependency>
-                <groupId>io.jaegertracing</groupId>
-                <artifactId>jaeger-tracerresolver</artifactId>
-                <version>0.32.0</version>
-            </dependency>
-            <dependency>
                 <groupId>io.opentracing.contrib</groupId>
                 <artifactId>opentracing-jdbc</artifactId>
                 <version>0.0.9</version>
-            </dependency>
-            <dependency>
-                <groupId>io.opentracing.contrib</groupId>
-                <artifactId>opentracing-web-servlet-filter</artifactId>
-                <version>0.2.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
