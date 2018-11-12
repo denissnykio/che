@@ -47,7 +47,5 @@ public class PostgreSQLJndiDataSourceFactory extends JNDIDataSourceFactory {
         firstNonNull(
             nullStringToNullReference(System.getenv("CHE_JDBC_MAX__WAIT__MILLIS")),
             DEFAULT_MAX__WAIT__MILLIS));
-    Class.forName(DEFAULT_DRIVER__CLASS__NAME);
   }
-
 }
