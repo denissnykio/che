@@ -44,7 +44,7 @@
         "jquery": "3.1.1",
         "json-server": "0.13.0",
         "lodash": "4.17.2",
-        "minimist": "1.2.0",
+        "minimist": "1.2.2",
         "morgan": "1.7.0",
         "react": "16.4.0",
         "react-dom": "16.0.0"
