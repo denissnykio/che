@@ -39,7 +39,7 @@
         "execa": "0.10.0",
         "express": "4.14.0",
         "express-session": "1.14.2",
-        "hbs": "4.0.1",
+        "hbs": "4.1.1",
         "http-server": "0.11.0",
         "jquery": "3.1.1",
         "json-server": "0.13.0",
