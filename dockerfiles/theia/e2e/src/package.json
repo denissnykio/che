@@ -46,8 +46,8 @@
         "lodash": "4.17.2",
         "minimist": "1.2.0",
         "morgan": "1.7.0",
-        "react": "16.4.0",
-        "react-dom": "16.0.0"
+        "react": "16.5.0",
+        "react-dom": "16.5.0"
     },
     "devDependencies": {
         "@cypress/snapshot": "2.0.1",
